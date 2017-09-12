@@ -31,7 +31,7 @@ function currentLine(array){
     for(var i = 0; i < array.length; i++){
       newArr.push(i+1);
       newArr.push(array[i]);
-      string = newArr.join(' , ');
+      string = newArr.join(',');
     }
     return newArr;
   }
