@@ -5,5 +5,5 @@ function takeANumber(array, name){
   else{
     array.push(name);
   }
-  return "Welcome, " + name + ". You are number " + (array.length) + "in line.";
+  return "Welcome, " + name + ". You are number " + (array.length) + " in line.";
 }
