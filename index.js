@@ -26,11 +26,12 @@ function currentLine(array){
   }
   else{
     var newArr = [];
+    var string;
     newArr.push("The line is currently:");
     for(var i = 0; i < array.length; i++){
       newArr.push(i+1);
       newArr.push(array[i]);
-      newArr.join(' ');
+      string = newArr.join(' ');
     }
     return newArr;
   }
