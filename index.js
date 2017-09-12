@@ -30,7 +30,7 @@ function currentLine(array){
     newArr.push("The line is currently:");
     for(var i = 0; i < array.length; i++){
       newArr.push(i+1);
-      newArr.push(array[i]);
+      newArr.push(array[i] + ",");
       newArr.toString();
       string = newArr.join(' ');
     }
