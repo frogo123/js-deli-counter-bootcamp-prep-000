@@ -9,10 +9,13 @@ function takeANumber(array, name){
 }
 
 function nowServing(array){
+  var customer;
   if (array.length === 0){
     return "There is nobody waiting to be served!";
   }
   else{
-    return "Currently serving " + array[0] + ".";
+    customer = "Currently serving " + array[0] + ".";
+    array = array.shift();
+    return customer;
   }
 }
