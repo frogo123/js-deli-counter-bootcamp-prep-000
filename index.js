@@ -31,7 +31,7 @@ function currentLine(array){
       newArr.push(i+1);
       newArr.push(array[i]);
       newArr.toString();
-      return newArr;
     }
+    return newArr;
   }
 }
