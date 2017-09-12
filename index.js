@@ -34,6 +34,6 @@ function currentLine(array){
       newArr.toString();
       string = newArr.join();
     }
-    return newArr;
+    return string;
   }
 }
